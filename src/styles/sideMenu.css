@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap');
+
+.sideMenu {
+    width: 20%;
+    height: 80vh;
+    position: fixed;
+    background-color: #1C1C1C;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideList {
+    list-style: none;
+}
+
+.sideItem {
+    color: #696d73;
+    cursor: pointer;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    width: 200px;
+}
+
+.sideItem:hover {
+    color: #0B9851;
+}
+
+.itemIcon {
+    margin-right: 15px;
+    width: 10px;
+}
