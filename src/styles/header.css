@@ -1,0 +1,33 @@
+.superiorBar {
+    width: 100%;
+    height: 90px;
+    background-color: #1B1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.towerLogo {
+    width: 150px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.headerImages {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 50px;
+}
+
+.headerIcon {
+    width: 25px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.profilePicture {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
