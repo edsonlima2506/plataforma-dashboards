@@ -13,7 +13,7 @@ export default function Header() {
                 <img src={ notification } alt="notification" className="headerIcon" />
                 <img src={ calendar } alt="calendar" className="headerIcon" />
                 <img src={ email } alt="email" className="headerIcon" />
-                <img src={ profile } alt="email" className="profilePicture" />
+                <img src={ profile } alt="profilePicture" className="profilePicture" />
             </div>
         </header>
     );
