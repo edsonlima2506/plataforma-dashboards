@@ -11,4 +11,9 @@ describe('Testa se os componentes estão na tela', () => {
         const headerElement = screen.getByTestId(/header/i);
         expect(headerElement).toBeInTheDocument();
     });
+
+    test('Deve haver um menu lateral na tela', () => {
+        const asideElement = screen.getByTestId(/sideMenu/i);
+        expect(asideElement).toBeInTheDocument();
+    })
 });
