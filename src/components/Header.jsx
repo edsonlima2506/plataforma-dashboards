@@ -1,9 +1,10 @@
 import '../styles/header.css';
-import towerLogo from '../images/towerLogo.png';
-import notification from '../images/notification.png';
-import calendar from '../images/calendar.png';
-import email from '../images/email.png'
-import profile from '../images/profile.png';
+import { Link } from 'react-router-dom';
+import towerLogo from '../images/logos/towerLogo.png';
+import notification from '../images/icons/notification.png';
+import calendar from '../images/icons/calendar.png';
+import email from '../images/icons/email.png'
+import profile from '../images/icons/profile.png';
 
 export default function Header() {
     return(
@@ -13,7 +14,9 @@ export default function Header() {
                 <img src={ notification } alt="notification" className="headerIcon" />
                 <img src={ calendar } alt="calendar" className="headerIcon" />
                 <img src={ email } alt="email" className="headerIcon" />
-                <img src={ profile } alt="profilePicture" className="profilePicture" />
+                <Link to="/profile">
+                    <img src={ profile } alt="profilePicture" className="profilePicture" />
+                </Link>
             </div>
         </header>
     );

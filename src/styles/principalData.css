@@ -7,12 +7,38 @@
     margin: 20px 30px;
     background-color: #1B1D1F;
     border-radius: 15px;
+    border: solid 2px #0B9851;
+    color: #FFF;
 }
 
 .principalData h1 {
-    color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin: 20px 0px 0px 20px;
+}
+
+.principalIcon {
+    width: 45px;
+}
+
+.principaDataInfos {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px 0px 20px;
+}
+
+.info {
+    display: flex;
+}
+
+.infoTexts {
+    margin-left: 10px;
+}
+
+.infoTexts h3 {
+    font-size: 10px;
+    color: #696d73;
 }
