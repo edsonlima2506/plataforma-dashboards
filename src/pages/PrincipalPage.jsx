@@ -1,20 +1,18 @@
 import '../styles/principal.css';
-import React, { Suspense } from 'react'
+import React from 'react'
 import SideMenu from '../components/SideMenu';
-const Header = React.lazy(() => import('../components/Header'));
-const PrincipalData = React.lazy(() => import('../components/PrincipalData'));
-const PrincipalAcess = React.lazy(() => import('../components/PrincipalAcess'));
-const PrincipalSubs = React.lazy(() => import('../components/PrincipalSubs'));
+import PrincipalData from '../components/PrincipalData';
+import Header from '../components/Header';
+import PrincipalAcess from '../components/PrincipalAcess';
+import PrincipalSubs from '../components/PrincipalSubs';
 
 export default function Principal() {
     return(
         <div className="principalPage">
-            <Suspense fallback={<div>Loading...</div>}>
-                <Header />
-                <PrincipalData />
-                <PrincipalSubs />
-                <PrincipalAcess />
-            </Suspense>
+            <Header />
+            <PrincipalData />
+            <PrincipalSubs />
+            <PrincipalAcess />
             <SideMenu />
         </div>
     );

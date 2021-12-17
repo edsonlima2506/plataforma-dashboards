@@ -1,0 +1,12 @@
+@startuml Context Plataforma Tower
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(admin, "Usuário")
+System_Boundary(c1, "Cotexto do Sistema") {
+    Container(web_app, "Plataforma", "_", "O usuário tem acesso às informações da startup")
+}
+ContainerDb(db, "Database", "MySQL", "Contém informações vindas da aplicação da Tower")
+
+Rel(admin, web_app, "Acessa");
+Rel(web_app, db, "Acessa dados");
+@enduml

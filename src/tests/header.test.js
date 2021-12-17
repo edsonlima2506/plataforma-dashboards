@@ -1,8 +1,11 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import Header from '../components/Header';
+import renderWithRouter from '../renderWithRouter';
+import 'jest-canvas-mock';
+
 
 beforeEach(() => {
-    render(<Header/>);
+    renderWithRouter(<Header/>);
   });
 
 describe('Testa se o componente Header possui as imagens necessarias', () => {

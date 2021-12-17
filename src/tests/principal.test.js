@@ -1,6 +1,7 @@
 import { screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import Principal from '../pages/PrincipalPage';
+import 'jest-canvas-mock';
 
 beforeEach(() => {
     renderWithRouter(<Principal/>);
