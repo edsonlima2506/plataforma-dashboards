@@ -1,10 +1,10 @@
 import '../styles/principalSubs.css';
-import UsersAndSubs from './UsersAndSubs';
+import SubsGraph from './SubsGraph';
 
 export default function PrincipalSubs() {
     return(
         <div className="principalSubs">
-          <UsersAndSubs />
+          <SubsGraph />
         </div>
     );
 }

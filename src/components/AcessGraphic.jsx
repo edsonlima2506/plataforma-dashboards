@@ -6,6 +6,7 @@ Chart.register(CategoryScale);
 export default function AcessGraphic() {
     return(
         <Bar
+            data-testid="acessGraph"
             data={
               {
                 labels: ['Julho','Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],

@@ -1,8 +1,8 @@
 import '../styles/principal.css';
 import React from 'react'
 import SideMenu from '../components/SideMenu';
-import PrincipalData from '../components/PrincipalData';
 import Header from '../components/Header';
+import PrincipalData from '../components/PrincipalData';
 import PrincipalAcess from '../components/PrincipalAcess';
 import PrincipalSubs from '../components/PrincipalSubs';
 

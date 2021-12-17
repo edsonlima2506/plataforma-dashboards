@@ -1,7 +1,6 @@
 import { screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import SideMenu from '../components/SideMenu';
-import 'jest-canvas-mock';
 
 beforeEach(() => {
     renderWithRouter(<SideMenu/>);
