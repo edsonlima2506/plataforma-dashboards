@@ -14,7 +14,7 @@ export default function SubsGraph() {
 						data: [95, 12],
 						backgroundColor: [
 							'#0B9851',
-							'#000000',
+							'#47E686',
 						],
 					}],
 				}}

@@ -1,5 +1,9 @@
 .usersPage {
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-color: #111315;
+}
+
+.principalDataUsers {
+    margin-top: 20px;
 }
