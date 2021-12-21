@@ -42,8 +42,6 @@
     ]
   },
   "devDependencies": {
-    "canvas": "^2.8.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-react": "^7.27.1"
+    "canvas": "^2.8.0"
   }
 }
