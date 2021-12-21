@@ -21,7 +21,20 @@ export default function AcessGraphic() {
                     '#0B9851',
                     '#0B9851',
                   ],
-                }],
+                },
+                {
+                  label: 'Cadastros',
+                  data: [17 ,25, 15, 29, 23, 11],
+                  backgroundColor: [
+                    '#47E686',
+                    '#47E686',
+                    '#47E686',
+                    '#47E686',
+                    '#47E686',
+                    '#47E686',
+                  ],
+                }
+              ],
             }}
             height={ 100 }
             width={ 200 }

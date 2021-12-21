@@ -32,7 +32,7 @@ const listItems = [
         itemIcon: faBookmark,
         itemPath: '/goals',
         itemText: 'Metas',
-    }
+    },
 ]
 
 export default function SideMenu() {
