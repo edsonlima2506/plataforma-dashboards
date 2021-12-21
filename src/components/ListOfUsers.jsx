@@ -11,6 +11,7 @@ export default function ListOfUsers() {
                         name={ user.name }
                         plan={ user.plan }
                         date={ user.date }
+                        id={ user.id }
                     />
                 </div>
             )) }

@@ -42,18 +42,24 @@
     width: 260px;
 }
 
-.user button {
-    width: 80px;
-    height: 30px;
+.userButton {
+    width: 85px;
+    height: 35px;
     background: none;
     border: 2px solid darkgray;
     color: darkgray;
+    font-size: 15px;
+    font-weight: 900;
     cursor: pointer;
     transition: 1s;
     margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.user button:hover {
+.userButton:hover {
     border: 2px solid #0B9851;
     color: #FFF;
 }
