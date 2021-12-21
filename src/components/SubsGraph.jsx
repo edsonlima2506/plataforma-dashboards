@@ -2,10 +2,11 @@ import { Doughnut } from 'react-chartjs-2';
 import { CategoryScale } from 'chart.js';
 import Chart from 'chart.js/auto'
 Chart.register(CategoryScale)
+import React from 'react';
 
 export default function SubsGraph() {
     return(
-    	<Doughnut
+        <Doughnut
 				data-testid="subsGraph"
 				data={{
 					labels: ['Gratuitos', 'Pagos'],
@@ -26,5 +27,6 @@ export default function SubsGraph() {
             padding: 20
         }
         }}
-			/>);
+		/>
+	);
 }

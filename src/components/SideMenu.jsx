@@ -2,6 +2,7 @@ import '../styles/sideMenu.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faChartBar, faUser, faAddressBook, faWallet, faBullhorn, faBookmark } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 const listItems = [
     {
         itemIcon: faChartBar,

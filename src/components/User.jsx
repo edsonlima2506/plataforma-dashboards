@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class User extends React.Component {
     render() {
@@ -15,5 +16,12 @@ class User extends React.Component {
         );
     }
 }
+
+User.propTypes = {
+    name: PropTypes.string.isRequired,
+    plan: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+};
 
 export default User;

@@ -5,6 +5,7 @@ import notification from '../images/icons/notification.png';
 import calendar from '../images/icons/calendar.png';
 import email from '../images/icons/email.png'
 import profile from '../images/icons/profile.png';
+import React from 'react';
 
 export default function Header() {
     return(

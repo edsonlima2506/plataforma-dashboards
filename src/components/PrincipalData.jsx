@@ -5,6 +5,7 @@ import subs from '../images/icons/subs.png';
 import payment from '../images/icons/payment.png';
 import { totalOfUsers, totalOfSubscribers } from '../data/users';
 import { totalOfStores } from '../data/stores';
+import React from 'react';
 
 export default function PrincipalData() {
     return(
