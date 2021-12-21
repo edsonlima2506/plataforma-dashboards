@@ -12,6 +12,26 @@ const users = [
       plan: 'Gratuito',
       date: '13/12/2021',
     },
+    {
+      name: 'Kethreen Ramos da Silva',
+      plan: 'Gratuito',
+      date: '13/12/2021',
+    },
+    {
+      name: 'Kethreen Ramos da Silva',
+      plan: 'Gratuito',
+      date: '13/12/2021',
+    },
+    {
+      name: 'Kethreen Ramos da Silva',
+      plan: 'Gratuito',
+      date: '13/12/2021',
+    },
+    {
+      name: 'Kethreen Ramos da Silva',
+      plan: 'Gratuito',
+      date: '13/12/2021',
+    },
 ];
 
 export { totalOfUsers, totalOfSubscribers, users };

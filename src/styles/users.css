@@ -23,6 +23,7 @@
 
 .user:hover {
     border: 2px solid #0B9851;
+    user-select: none;
 }
 
 .userInfo {
