@@ -1,20 +1,17 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-=======
->>>>>>> parent of 36f7288... Add Eslint
 
 class User extends React.Component {
     render() {
-        const { name, plan, date } = this.props;
+        const { name, plan, date, id } = this.props;
         return(
             <div className='user'>
                 <h1 className="userName userInfo">{ name }</h1>
                 <h2 className="userPlan userInfo">{ plan }</h2>
                 <h2 className="userDate userInfo">{ date }</h2>
-                <button>Upgrade</button>
-                <button>Detalhes</button>
+                <button className="userButton">Upgrade</button>
+                <Link to={`/user/${id}`}><button className="userButton">Detalhes</button></Link>
             </div>
         );
     }

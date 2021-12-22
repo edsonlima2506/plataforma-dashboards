@@ -1,8 +1,8 @@
+import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { CategoryScale } from 'chart.js';
 import Chart from 'chart.js/auto'
 Chart.register(CategoryScale)
-import React from 'react';
 
 export default function SubsGraph() {
     return(

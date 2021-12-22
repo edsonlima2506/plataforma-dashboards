@@ -23,6 +23,7 @@
 
 .user:hover {
     border: 2px solid #0B9851;
+    color: #0B9851;
     user-select: none;
 }
 
@@ -42,18 +43,25 @@
     width: 260px;
 }
 
-.user button {
+.userButton {
     width: 80px;
     height: 30px;
-    background: none;
-    border: 2px solid darkgray;
-    color: darkgray;
+    background-color: #0B9851;
+    border: none;
+    border-radius: 5px;
+    color: #141414;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.6s;
     margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
 }
 
-.user button:hover {
+.userButton:hover {
     border: 2px solid #0B9851;
     color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 8px -12px, rgba(0, 0, 0, 0.16) 0px 16px 12px -8px;
 }
