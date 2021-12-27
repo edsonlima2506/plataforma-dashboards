@@ -19,9 +19,9 @@ export default function SubsGraph() {
 						],
 					}],
 				}}
-				height={ 80 }
-        width={ 150 }
-        options={{
+			height={ 80 }
+        	width={ 150 }
+       		options={{
           maintainAspectRatio: false,
 					layout: {
             padding: 20

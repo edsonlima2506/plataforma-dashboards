@@ -1,0 +1,15 @@
+@startuml Context Plataforma Tower
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(admin, "Usuário")
+System_Boundary(c1, "Plataforma") {
+    Container(tela_principal, "Tela Inicial", "_", "Apresenta príncipais dados das áreas da empresa")
+    Container(tela_usuarios, "Tela Usuários", "_", "Apresenta dados de usuários (Gratuitos, pagos, etc..)")
+    Container(tela_lojas, "Tela Lojas", "_", "Apresenta dados das lojas parceiras do DesconteMais")
+    Container(tela_marketing, "Tela Marketing", "_", "Apresenta dados sobre campanhas de marketing")
+    Container(tela_metas, "Tela Metas", "_", "Apresenta metas da empresa nos próximos meses")
+}
+
+Rel(admin, c1, "_");
+
+@enduml
