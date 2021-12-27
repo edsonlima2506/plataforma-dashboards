@@ -9,16 +9,16 @@ import React from 'react';
 
 export default function Header() {
     return(
-        <header className="superiorBar" data-testid="header">
-            <img src={ towerLogo } alt="Logo da Tower" className="towerLogo"/>
-            <div className="headerImages">
-                <img src={ notification } alt="notification" className="headerIcon" />
-                <img src={ calendar } alt="calendar" className="headerIcon" />
-                <img src={ email } alt="email" className="headerIcon" />
-                <Link to="/profile">
-                    <img src={ profile } alt="profilePicture" className="profilePicture" />
-                </Link>
-            </div>
-        </header>
+      <header className="superiorBar" data-testid="header">
+        <img src={ towerLogo } alt="Logo da Tower" className="towerLogo"/>
+         <div className="headerImages">
+            <img src={ notification } alt="notification" className="headerIcon" />
+            <img src={ calendar } alt="calendar" className="headerIcon" />
+            <img src={ email } alt="email" className="headerIcon" />
+            <Link to="/profile">
+                <img src={ profile } alt="profilePicture" className="profilePicture" />
+              </Link>
+          </div>
+      </header>
     );
 }
