@@ -9,7 +9,13 @@ System_Boundary(c1, "Plataforma") {
     Container(tela_marketing, "Tela Marketing", "_", "Apresenta dados sobre campanhas de marketing")
     Container(tela_metas, "Tela Metas", "_", "Apresenta metas da empresa nos próximos meses")
 }
+    ContainerDb(db, "Database", "MySQL", "Contém informações vindas da aplicação da Tower")
 
 Rel(admin, c1, "_");
+Rel(tela_principal, db, "acessa")
+Rel(tela_usuarios, db, "acessa")
+Rel(tela_marketing, db, "acessa")
+Rel(tela_metas, db, "acessa")
+Rel(tela_lojas, db, "acessa")
 
 @enduml
