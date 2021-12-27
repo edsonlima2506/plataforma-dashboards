@@ -6,14 +6,12 @@ beforeEach(() => {
     renderWithRouter(<SideMenu/>);
   });
 
-describe('Testa se os componentes aparece no menu laterar', () => {
+describe('Testa se os componentes aparece no menu lateral', () => {
     test('A lista de navegação deve estar na tela', () => {
-        const menuList = screen.getByTestId('sideList')
-        expect(menuList).toBeInTheDocument()
-    })
+        expect(screen.getByTestId('sideList')).toBeInTheDocument()
+    });
 
     test('A lista tem 6 itens', () => {
-        const menuItems = screen.getAllByTestId('sideItem')
-        expect(menuItems).toHaveLength(6)
-    })
+        expect(screen.getAllByTestId('sideItem')).toHaveLength(6)
+    });
 });
