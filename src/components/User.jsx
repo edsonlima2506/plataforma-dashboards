@@ -10,7 +10,6 @@ class User extends React.Component {
                 <h1 className="userName userInfo">{ name }</h1>
                 <h2 className="userPlan userInfo">{ plan }</h2>
                 <h2 className="userDate userInfo">{ date }</h2>
-                <button className="userButton">Upgrade</button>
                 <Link to={`/user/${id}`}><button className="userButton">Detalhes</button></Link>
             </div>
         );

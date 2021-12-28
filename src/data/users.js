@@ -1,5 +1,5 @@
-const totalOfUsers = 96;
-const totalOfSubscribers = 12;
+let freeUsers = 960;
+let subsUsers = 400;
 
 const users = [
     {
@@ -17,24 +17,32 @@ const users = [
     {
       name: 'Kethreen Ramos da Silva',
       plan: 'Gratuito',
-      date: '13/12/2021',
+      date: '30/11/2021',
       id: '231',
     },
     {
-      name: 'Kethreen Ramos da Silva',
-      plan: 'Gratuito',
-      date: '13/12/2021',
+      name: 'Guilherme Henrique Rezende',
+      plan: 'Pago',
+      date: '03/10/2021',
+      id: '456',
     },
     {
-      name: 'Kethreen Ramos da Silva',
+      name: 'Matheus Alexandre',
       plan: 'Gratuito',
-      date: '13/12/2021',
+      date: '26/12/2021',
+      id: '654',
     },
     {
-      name: 'Kethreen Ramos da Silva',
+      name: 'Leonardo Augusto',
       plan: 'Gratuito',
-      date: '13/12/2021',
+      date: '05/12/2021',
+      id: '546',
     },
 ];
 
-export { totalOfUsers, totalOfSubscribers, users };
+const acess = {
+  mounths: ['Julho','Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+  values: [37 ,52, 31, 49, 26, 17],
+}
+
+export { freeUsers, subsUsers, users, acess };

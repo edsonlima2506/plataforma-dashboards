@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/principalAcess.css';
 import { Bar } from 'react-chartjs-2';
 import { CategoryScale } from 'chart.js';
 import Chart from 'chart.js/auto';
 Chart.register(CategoryScale);
-import '../styles/principalAcess.css';
+import { acess } from '../data/users';
 
 export default function AcessGraphic() {
     return(
@@ -12,10 +13,10 @@ export default function AcessGraphic() {
             data-testid="acessGraph"
             data={
               {
-                labels: ['Julho','Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+                labels: acess.mounths,
                 datasets: [{
                   label: 'Acessos',
-                  data: [37 ,52, 31, 49, 26, 10],
+                  data: acess.values,
                   backgroundColor: [
                     '#0B9851',
                     '#0B9851',
