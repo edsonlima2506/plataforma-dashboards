@@ -1,0 +1,52 @@
+.storesGraph {
+    width: 50%;
+    height: 350px;
+    float: right;
+    margin: 20px 20px;
+    border-radius: 5px;
+    background-color: #1B1D1F;
+}
+
+.categories {
+    width: 350px;
+    height: 80vh;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #1B1D1F;
+    color: white;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories h1 {
+    margin: 20px 0 0 20px;
+    align-self: flex-start;
+}
+
+.categories ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories ul li {
+    width: 85%;
+    list-style: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    font-weight: 600;
+    background-color: #111315;
+    padding: 10px;
+}
+
+.categoryIcon {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}

@@ -4,7 +4,8 @@
     float: right;
     margin: 20px 28px 0px 0px;
     padding: 15px 0 15px;
-    background: none;
+    border-radius: 5px;
+    background-color: #1B1D1F;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
